@@ -1,0 +1,75 @@
+body{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.banner h1{
+    font-family: 'Pacifico';
+    font-size: 46px;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 70px;
+    }
+
+.banner h2{
+    padding-left: 70px;
+}    
+
+.banner{
+display: flex;
+background-image: url(imagens/background.png);
+background-size: cover;
+color: white;
+border-top: 10px solid rgb(83, 198, 94);
+padding: 0, 200px;
+justify-content: space-around;
+}
+
+.banner > div{
+padding: 45px 10px;
+}
+
+.direita img{
+    padding-top: 50px;
+    left: 200px;
+}
+
+.imagens{
+    background-color: rgb(83, 198, 94);
+    border-radius: 100%;
+    padding: 25px;
+
+}
+
+.icons{
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.icons > div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons > div > p{
+margin: 0;
+}
+
+.parte3{
+    padding: 40px 100px 40px 100px;
+    background-color: gray;
+    padding-left: 10px;
+    display: flex;
+}
+
+#update{
+    border: firebrick 3px solid;
+}
+
+#video{
+ 
+}
